@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from rest_framework import status
 import json
 from .utils import *
-from graphapi.views import run_query
+from graph.views import run_query
 
 
 @api_view(['POST'])

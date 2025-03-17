@@ -4,13 +4,13 @@ from rest_framework.response import Response
 
 
 
-from graphapi.utility import run_query
+from graph.utility import run_query
 from django.http import JsonResponse
 
 
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from graphapi.utility import run_query  # Ensure this function runs Cypher queries
+from graph.utility import run_query  # Ensure this function runs Cypher queries
 
 @api_view(['POST'])
 def fetch_distinct_relations(request):

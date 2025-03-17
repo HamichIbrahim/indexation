@@ -7,7 +7,7 @@ from rest_framework.response import Response
 from django.http import JsonResponse
 from datetime import datetime
 import uuid
-from graphapi.views import run_query
+from graph.views import run_query
 
 ############################  for  two nodes need to be fixed couse of multiple same relation  between two nodes######################################
 @api_view(['POST'])

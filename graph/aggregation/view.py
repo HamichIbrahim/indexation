@@ -2,7 +2,7 @@ from django.http import JsonResponse
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
-from graphapi.utility import run_query
+from graph.utility import run_query
 
 # //////////////  neeed to aggregate properties /////////
 @api_view(['POST'])
